@@ -595,6 +595,15 @@ html {
     border: 2px solid white;
     border-radius: 30px;
     z-index: 1;
+    padding: 150px 50px;
+}
+
+.subImageContainerLeft {
+    position: absolute;
+    width: 80%;
+    top: 1300px;
+    left: 10%;
+    padding: 150px 50px;
 }
 
 .exocad {
@@ -610,6 +619,13 @@ html {
 
 .servicioTecnico {
     background-image: url("../images/servicioTecnico.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anydesk {
+    background-image: url("../images/anydeskLogo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -713,6 +729,18 @@ html {
         top: 1300px;
         right: 10%;
     }
+
+    .subImageContainerLeft {
+        position: absolute;
+        top: 750px;
+        left: 150px;
+        width: 48%;
+        height: 400px;
+        border: 2px solid white;
+        border-radius: 30px;
+        z-index: 1;
+    }
+
     .bioContainer {
         height: auto;
     }
@@ -748,6 +776,13 @@ html {
     }
     .skillsLevelPercentageContainer {
         position: inherit;
+    }
+
+    .subImageContainerLeft {
+        position: absolute;
+        width: 80%;
+        top: 1300px;
+        left: 10%;
     }
 }
 
@@ -897,5 +932,8 @@ html {
         transform: scale(1);
         left: 50%;
         top: 450px;
+    }
+    .subImageContainerLeft {
+        display: none;
     }
 }
