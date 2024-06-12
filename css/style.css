@@ -7,6 +7,9 @@
     color: white;
     font-family: "CenturyGothicRegular";
 }
+html {
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: 'CenturyGothicLightItalic';
@@ -594,15 +597,22 @@
     z-index: 1;
 }
 
-.projectTorino {
-    background-image: url("../images/torino.webp");
+.exocad {
+    background-image: url("../images/exocadLogo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.projectTorinoSecondImage {
+.secondImage {
     width: 80%;
+}
+
+.servicioTecnico {
+    background-image: url("../images/servicioTecnico.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1440px) {
@@ -872,5 +882,20 @@
     .divisorOcultadorLinea {
         width: 146px;
         left: 27px;
+    }
+
+    .folderContainer {
+        transform: scale(2);
+        left: 100px;
+    }
+    .secondFolder {
+        transform: scale(1);
+        left: 50%;
+        top: 300px;
+    }
+    .thirdFolder {
+        transform: scale(1);
+        left: 50%;
+        top: 450px;
     }
 }
