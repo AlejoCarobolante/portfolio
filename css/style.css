@@ -139,6 +139,7 @@
     justify-content: center;
     width: 100vw;
     height: 1000px;
+    margin-bottom: 200px;
 }
 
 .bioWrapper {
@@ -472,7 +473,19 @@
     cursor: pointer;
 }
 
-/* Divisor de secciones con estilo de carperta */
+.secondFolder {
+    transform: scale(2);
+    left: 70%;
+    top: 250px;
+}
+
+.thirdFolder {
+    transform: scale(2);
+    left: 70%;
+    top: 450px;
+}
+
+/* Divisor de secciones con estilo de carpeta */
 
 .divisorContainer {
     position: relative;
@@ -610,11 +623,34 @@
     }
     .bioImages {
         display: flex;
-        flex-direction: column;
     }
     .bioImageOutside {
-        width: 500px;
-        height: 600px;
+        width: 300px;
+        height: 400px;
+    }
+    .bioImageMiddleOut {
+        width: 300px;
+        height: 300px
+    }
+    .bioImageMiddleContainer {
+        width: 200px;
+        height: 200px
+    }
+
+    .folderContainer {
+        left: 150px;
+        top: 100px;
+    }
+    .secondFolder {
+        left: 60%;
+        top: 300px;
+    }
+    .thirdFolder {
+        left: 60%;
+        top: 500px;
+    }
+    .wrapperTitle {
+        font-size: 70px;
     }
 }
 
@@ -667,6 +703,42 @@
         top: 1300px;
         right: 10%;
     }
+    .bioContainer {
+        height: auto;
+    }
+    .bioWrapper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .bioImages {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        position: initial;
+        width: 100%;
+        height: auto;
+        left: inherit;
+        bottom: inherit;
+        padding-bottom: 50px;
+    }
+    .bioImageOutside {
+        width: 200px;
+        height: 200px;
+    }
+    .bioImageMiddleOut {
+        width: 200px;
+        height: 200px
+    }
+    .bioImageMiddleContainer {
+        display: flex;
+        width: 200px;
+        height: 300px
+    }
+    .skillsLevelPercentageContainer {
+        position: inherit;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -698,8 +770,9 @@
         padding: 30px;
     }
     .cardsContainer {
-        height: 900px;
+        height: 1000px;
         margin-bottom: 50px;
+
     }
     .cardsGrid {
         display: flex;
@@ -735,6 +808,20 @@
     }
     .divisorOcultadorLinea {
         left: 52px;
+    }
+
+    .folderContainer {
+        transform: scale(2.5);
+    }
+    .secondFolder {
+        transform: scale(1.5);
+        left: 50%;
+        top: 300px;
+    }
+    .thirdFolder {
+        transform: scale(1.5);
+        left: 50%;
+        top: 450px;
     }
 }
 
